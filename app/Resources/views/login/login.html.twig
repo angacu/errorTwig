@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>¡Bienvenido a www.theyAreBetter.com!</title>
+  <style>
+  body {
+    background-image: url("../img/fondo2.jpg");
+    background-size: 100%;
+  }
+  form {
+    width: 97.5%;
+    padding: 15px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #4CAF50;
+      background-image: url("../img/fondoform2.jpg");
+      background-size: 100%;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+  }
+
+    .menu {
+      list-style:none;
+      padding:0px;
+      margin:0px;
+      border: 1px;
+    }
+    .menu li {
+        margin:8px;
+        padding:2px;
+        float:left;
+    }
+    .menu li a {
+        display:block;
+        width:100px;
+        height:20px;
+        text-decoration:none;
+        text-align:center;
+        color:black;
+        background-image: url("../img/fondoform2.jpg");
+        background-size: 100%;
+        border-left:10px  black;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        /* font-family: fantasy; */
+    }
+    .menu li a:hover{
+        color:blue;
+        background-color:#F8F32B;
+        border-left-color:grey;
+    }
+    .entrar{
+      width: 97%;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 10px;
+      padding-left: 30px
+    }
+
+    h4, h3{
+    font-family: serif;
+
+    }
+    h1{
+      color: #1C1C1C	;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-image: url("../img/fondoform2.jpg");
+      background-size: 100%;
+    }
+    p{
+      /* font-family: fantasy; */
+    }
+    .text{
+      padding-left: 100px;
+    }
+    </style>
+  </head>
+  <body style="background-color:#EAE6CA;">
+<!-- Menú de navegación del sitio -->
+  <h1>LOG IN</h1>
+  <h4>¡Bienvenido a www.theyAreBetter.com!</h4>
+    <br>
+    <ul class="menu">
+        <strong><li> <a href="uno.html">home</a></li>
+        <li> <a href="dos.html">registro</a></li>
+        <li> <a href="tres.html">logIn</a></li></strong>
+    </ul>
+    <br>
+      <form action="form" method="post">
+        <h3>LogIn</h3>
+          <div>
+            <br>
+              <!-- <label for="mail"> Correo:</label> -->
+              <input name = "Usuario" placeholder="Usuario" type="text"/>
+          </div>
+          <div>
+            <br>
+              <input name = "Contraseña" placeholder="Contraseña" type="password"/>
+          </div>
+          <br>
+           <input type="submit" value="Entrar">
+      </form>
+</body>
+</html>
